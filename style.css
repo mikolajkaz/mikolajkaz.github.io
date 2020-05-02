@@ -1,3 +1,6 @@
-body {background-color: black}
-body {color: white}
-a {color: white}
+body {background-color: black;
+  color: white;
+}
+a {color: white;
+  text-decoration: none;
+}
