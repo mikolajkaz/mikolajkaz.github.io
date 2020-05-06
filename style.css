@@ -1,5 +1,7 @@
 body {background-color: black;
   color: green;
+  @import url(http://allfont.net/allfont.css?fonts=lucida-console);
+  font-family: 'Lucida Console', arial;
 }
 a {color: lightgreen;
   text-decoration: none;}
