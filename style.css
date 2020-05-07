@@ -1,8 +1,11 @@
-body {background-color: black;
-  color: green;
-  font-family: 'Lucida Console', arial;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+body {background-color: #2980b9;
+  color: #ecf0f1;
+	font-family: 'Quicksand', sans-serif;
 }
-a {color: green;
-  text-decoration: underline;
-  text-decoration: overline;}
-h1 {text-align: center}
+a {color: #f1c40f;
+  text-decoration: underline;}
+h1 {text-align: center;
+		position: fixed: auto
+}
+footer {text-align: center}
