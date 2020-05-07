@@ -2,6 +2,6 @@ body {background-color: black;
   color: green;
   font-family: 'Lucida Console', arial;
 }
-a {color: lightgreen;
-  text-decoration: none;}
+a {color: green;
+  text-decoration: underline, overline;}
 h1 {text-align: center}
