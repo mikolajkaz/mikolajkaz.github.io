@@ -47,7 +47,7 @@ function skr_ckz() {
         c.style.color = "#ecf0f1";
         hc.style.background = "#f9ca24";
         hc.style.color = "#000000";
-        c.innerHTML = "<span id=\"cinfo\" style=\"flex: 1 1 auto; margin-top: 2px;\">Na swojej stronie wykorzystujÄ pliki cookie. [&nbsp;<a href=\"https://skrypt-cookies.pl/czym-sa-ciasteczka\" target=\"_blank\" style=\"text-decoration:underline;color:#ecf0f1;\">WiÄcej informacji</a>&nbsp;]</span>";
+        c.innerHTML = "<span id=\"cinfo\" style=\"flex: 1 1 auto; margin-top: 2px;\">Na swojej stronie wykorzystuję pliki cookie. [&nbsp;<a href=\"https://skrypt-cookies.pl/czym-sa-ciasteczka\" target=\"_blank\" style=\"text-decoration:underline;color:#ecf0f1;\">Więcej informacji</a>&nbsp;]</span>";
         hc.innerHTML = "Rozumiem";
         c.style.width = "48%";
         c.style.minWidth = "380px";
