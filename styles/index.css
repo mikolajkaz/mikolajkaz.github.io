@@ -8,8 +8,10 @@ body { /* IDEA: #2c3e50 or background-color: ff;*/
 	margin: 20px;
 	background-color: #2980b9
 }
-a {color: #f39c12;
+a {color: #ecf0f1;
   text-decoration: underline;}
+a:hover {background-color: #f39c12;
+text-decoration: none;}
 h1 {text-align: center;
 	font-size: 40px
 }
@@ -18,6 +20,10 @@ b {font-weight: bold; }
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100%
-	height: 100%;
 }
+.kontakt {text-align: center;
+          position: center;
+          max-width: 500px;
+          margin: auto;
+}
+.kontakt li {list-style-type: none;}
