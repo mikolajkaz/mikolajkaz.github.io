@@ -1,6 +1,6 @@
 /* fonty  */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-body { /* IDEA: #2c3e50 or background-color: ff;*/
+body {
   color: #ecf0f1;
 	font-family: 'Lato', sans-serif;
 	line-height: 1.2;
@@ -12,8 +12,9 @@ a {color: #ecf0f1;
   text-decoration: underline;}
 a:hover {background-color: #f39c12;
 text-decoration: none;}
+
 h1 {text-align: center;
-	font-size: 40px
+	font-size: 40px;
 }
 b {font-weight: bold; }
 .center {
