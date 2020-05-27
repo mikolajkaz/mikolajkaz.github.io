@@ -28,3 +28,13 @@ b {font-weight: bold; }
           margin: auto;
 }
 .kontakt li {list-style-type: none;}
+
+.avatar {border-radius: 5px;
+border-bottom-left-radius: 0px;
+border-bottom-right-radius: 0px;
+background-color: #54BF74;
+height: 125px;
+width: 125px;
+position: center;
+margin: auto;
+}
