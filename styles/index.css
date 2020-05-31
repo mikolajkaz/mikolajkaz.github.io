@@ -26,8 +26,8 @@ b {font-weight: bold; }
   margin-right: auto;
 }
 
-.kontakt li {list-style-type: none;}
-
+.kontakt li {list-style-type: disc;}
+.kontakt ol li {list-style-type: decimal;}
 .avatar {
         position: center;
         margin: auto;
