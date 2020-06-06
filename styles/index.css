@@ -44,7 +44,7 @@ b {font-weight: 900; }
         position: center;
         margin: auto;
         height: 125px;
-        border-radius: 100%;
+        border-radius: 0%;
         width: 125px;
 }
 .header {
