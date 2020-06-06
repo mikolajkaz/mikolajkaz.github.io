@@ -1,20 +1,25 @@
 /* fonty  */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 .wrapper {
-  color: #ecf0f1;
+  color: #2c3e50;
 	font-family: 'Lato', sans-serif;
 	line-height: 1.2;
-	padding: 15px;
-  margin: auto;
-  max-width: 1000px;
-  margin: auto;
   position: center;
   text-align: justify;
+  max-width: 1000px;
+  margin: auto;
+}
+#foot {background-color: #34495e;}
+.wrapper, body {background-color: #ecf0f1;}
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Lato', sans-serif;
+  padding-top: 0px;
 }
 
-body {background-color: #EB5160;}
-a {color: #c5Fffd;
-  text-decoration: underline;}
+a {color: #1abc9c;
+  text-decoration: none;}
 
 h1 {text-align: center;
 	font-size: 40px;
@@ -32,5 +37,19 @@ b {font-weight: bold; }
         position: center;
         margin: auto;
         height: 125px;
+        border-radius: 100%;
         width: 125px;
+        background-color: #1abc9c;
+}
+.header {
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #1abc9c;
+  color: #ecf0f1;
+  margin: 0px;
+	font-family: 'Lato', sans-serif;
+	line-height: 1.2;
+  position: center;
+  text-align: justify;
 }
