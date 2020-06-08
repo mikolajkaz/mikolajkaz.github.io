@@ -30,6 +30,10 @@ footer {
   color: #ecf0f1;
   padding-top: 30px;
   padding-bottom: 30px;
+  background-color: #2c3e50;
+  -webkit-border-top-left-radius: 20px;
+  -moz-border-radius-topleft: 20px;
+  border-top-left-radius: 20px;
   text-align: center;
   font-weight: bold;}
 .wrapper, body {background-color: #ecf0f1;}
@@ -37,6 +41,7 @@ html {scroll-behavior: smooth;}
 body {
   margin: 0px;
   padding: 0px;
+  margin-top: 0px;
   font-family: 'Lato', sans-serif;
   padding-top: 0px;
 }
@@ -66,12 +71,12 @@ b {font-weight: 900; }
 header {
   height: 100vh;
   padding-top: 60px;
-  padding-bottom: 0px;
+  padding-bottom: -60px;
   color: #ecf0f1;
   margin: 0px;
 	font-family: 'Lato', sans-serif;
 	line-height: 1.2;
   position: center;
+  background-color: #c0392b;
   text-align: justify;
 }
-footer, header {background-color: #c0392b;}
