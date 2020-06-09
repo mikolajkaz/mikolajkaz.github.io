@@ -11,6 +11,16 @@
   padding-left: 20px;
   padding-right: 20px;
 }
+.plakaty-wrapper {
+margin-bottom: 20px;}
+.plakaty-item {border-style: dashed;
+padding-left: 0px;
+display: block;
+margin-bottom: 40px;
+margin-left: auto;
+margin-right: auto;
+border-color: black;
+}
 .scrolltocontent {color: #ecf0f1;
   background-color: transparent;
   width: 50px;
@@ -82,4 +92,3 @@ header {
 }
 .icon {height: 1em;
   padding-right: 10px;}
-.bosak {background-color: white;}

@@ -2,12 +2,12 @@
 <html lang="pl-PL">
 <head>
 	<link rel="stylesheet" href="styles/index.css">
+	<link rel="stylesheet" href="styles/forkawesome1.17/css/fork-awesome.min.css">
 	<title>Mikołaj Kaźmierczak</title>
 	<meta name="description" content="Wizytówka Mikołaja Kaźmierczaka. Python Webdev">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="shortcut icon" href="images/favicon.ico">
-	<script src="https://kit.fontawesome.com/69b2650480.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -16,6 +16,7 @@
 		<img src="images/avatar.png" alt="Mój awatar" class="center avatar" width="500" height="500">
 		<button class="scrolltocontent" name="button" onclick=location.href="#tocontent">⇩</button>
 	</header>
+	<script src="scripts/lazyload.js" async></script>
 	<div class="wrapper">
 		<a name="tocontent"></a>
 		<h2>O mnie</h2>
@@ -39,26 +40,26 @@
 		<h2>Kontakt</h2>
 				<ul>
 					<li>
-						<i class="fas fa-envelope icon"></i><a href="mailto:mikolajkazmierczak@listy.int.pl">Mail</a>
+						<i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:mikolajkazmierczak@listy.int.pl">Mail</a>
 					</li>
 					<li>
-						<i class="fab fa-telegram-plane icon"></i><a href="https://t.me/mikolajkaz">Telegram</a>
+						<i class="fa fa-telegram" aria-hidden="true"></i><a href="https://t.me/mikolajkaz">Telegram</a>
 					</li>
 					<li>
-						<i class="fab fa-facebook-messenger icon"></i><a href="https://m.me/mikolajkaz">Messenger</a>
+						<i class="fa fa-facebook-messenger" aria-hidden="true"></i><a href="https://m.me/mikolajkaz">Messenger</a>
 					</li>
 					<li>
-						<i class="fab fa-discord icon"></i><a href="https://discordapp.com/users/567773107977453586">Discord</a>
+						<i class="fa fa-discord-alt" aria-hidden="true"></i><a href="https://discordapp.com/users/567773107977453586">Discord</a>
 					</li>
 					<li>
 						Fediwersum
 						<ol>
-							<li><i class="fab fa-mastodon icon"></i><a href="https://mastodon.social/@smigol">smigol@mastodon.social</a></li>
-							<li><i class="fab fa-mastodon icon"></i><a href="https://rigcz.club/@smigol">smigol@rigcz.club</a></li>
+							<li><i class="fa fa-mastodon" aria-hidden="true"></i><a href="https://mastodon.social/@smigol">smigol@mastodon.social</a></li>
+							<li><i class="fa fa-mastodon" aria-hidden="true"></i><a href="https://rigcz.club/@smigol">smigol@rigcz.club</a></li>
 						</ol>
 					</li>
 					<li>
-						<i class="fab fa-keybase icon"></i><a href="https://keybase.io/smigol">Keybase</a>
+						<i class="fa fa-keybase" aria-hidden="true"></i><a href="https://keybase.io/smigol">Keybase</a>
 					</li>
 					<li>
 						<i class="fa fa-matrix-org icon"></i><a href="https://matrix.to/#/@mikolajkazmierczak:matrix.org">Matrix</a>
@@ -112,7 +113,15 @@
 						</li>
 					</ul>
 				</ul>
-				<a href="https://bosak2020.pl/"><img src="images/bosak2020/media_loga_beztla2.png" alt="Baner Kszysztofa Bosaka" class="bosak center" height="50%" width="50%"></a>
+			</section>
+			<section id="plakaty">
+				<h2>Plakaty</h2>
+				<div class="plakaty-wrapper">
+					<a href="https://bosak2020.pl">
+						<img src="images/logo-bosak.png" alt="Baner Krzysztofa Bosaka" class="plakaty-item lazyload">
+					</a>
+					<img src="images/koronawirus-maska.png" alt="Noś maskę poprawnie! Powinna zasłaniać usta i nos." height="50%" width="50%" class="plakaty-item lazyload">
+				</div>
 			</section>
 	</div>
 	<footer>Copyright 2020 by Mikołaj Kaźmierczak</footer>
