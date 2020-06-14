@@ -12,7 +12,10 @@
   padding-right: 20px;
 }
 .plakaty-wrapper {
-margin-bottom: 20px;}
+margin-bottom: 20px;
+max-width: 650px;
+margin-left: auto;
+margin-right: auto;}
 .plakaty-item {border-style: dashed;
 padding-left: 0px;
 display: block;
@@ -44,7 +47,9 @@ footer {
   -moz-border-radius-topright: 30px;
   border-top-right-radius: 30px;
   text-align: center;
-  font-weight: bolder;}
+  font-weight: bold;}
+footer .name {font-weight: 600;
+text-decoration: underline;}
 .wrapper, body {background-color: #ffff;}
 html {scroll-behavior: smooth;}
 body {
@@ -87,7 +92,7 @@ header {
 	font-family: 'Lato', sans-serif;
 	line-height: 1.2;
   position: center;
-  background-color: #182C61;
+  background: linear-gradient(202deg, rgba(24,44,97,1) 0%, rgba(46,204,113,1) 100%);
   text-align: justify;
 }
 .icon {height: 1em;
