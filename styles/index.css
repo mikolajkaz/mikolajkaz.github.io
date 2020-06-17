@@ -7,6 +7,7 @@
   position: center;
   text-align: justify;
   max-width: 1000px;
+  font-weight: 300;
   margin: auto;
   padding-left: 20px;
   padding-right: 20px;
@@ -48,8 +49,6 @@ footer {
   border-top-right-radius: 30px;
   text-align: center;
   font-weight: bold;}
-footer .name {font-weight: 600;
-text-decoration: underline;}
 .wrapper, body {background-color: #ffff;}
 html {scroll-behavior: smooth;}
 body {
@@ -83,7 +82,7 @@ b {font-weight: 900; }
         width: 125px;
 }
 header {
-  height: 100vh;
+  height: 400px;
   padding-top: 60px;
   font-weight: bolder;
   padding-bottom: -60px;
@@ -92,7 +91,8 @@ header {
 	font-family: 'Lato', sans-serif;
 	line-height: 1.2;
   position: center;
-  background: linear-gradient(202deg, rgba(24,44,97,1) 0%, rgba(46,204,113,1) 100%);
+  /*background: linear-gradient(202deg, rgba(24,44,97,1) 0%, rgba(46,204,113,1) 100%);*/
+  background: linear-gradient(180deg, rgba(52,73,94,1) 0%, rgba(231,76,60,1) 100%);
   text-align: justify;
 }
 .icon {height: 1em;
