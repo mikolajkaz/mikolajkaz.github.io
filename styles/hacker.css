@@ -1,0 +1,15 @@
+.wrapper, .content, header {
+  background-color: black;
+  color: white;
+}
+.wrapper {
+  color: #2c3e50;
+	font-family: 'Lato', sans-serif;
+	line-height: 1.2;
+  position: center;
+  text-align: justify;
+  max-width: 1000px;
+  font-weight: 400;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;}
