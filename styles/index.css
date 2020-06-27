@@ -1,8 +1,6 @@
 /* fonty  */
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
  .wrapper {
   color: white;
-	font-family: 'Courier Prime', sans-serif;
 	line-height: 1.2;
   position: center;
   text-align: justify;
@@ -13,23 +11,21 @@
 .small {font-size: 10px;
   text-align: center;
 color: #101010;}
-header, .wrapper, footer {font-family: 'Courier Prime', sans-serif;}
 footer {
   color: white;
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
   border-top-style: dashed;
-  border-top-width: medium;
+  border-top-width: 5px;
   font-weight: bold;}
-.wrapper, .content {background-color: black;}
+.wrapper, .content, header, footer {background-color: #000;
+font-family: Consolas;}
 html {scroll-behavior: smooth;}
 body {
   margin: 0px;
   padding: 0px;
   margin-top: 0px;
-  background-color: black
-  font-family: 'Courier', sans-serif;
   padding-top: 0px;
 }
 
@@ -52,27 +48,21 @@ b {font-weight: 900; }
 .avatar {
         margin: auto;
         height: 125px;
-        border-radius: 0%;
-        border-style: dashed;
         width: 125px;
         padding: 10px;
       }
 header {
   padding-top: 60px;
   font-weight: bolder;
-  color: #ffff;
   margin: 0px;
-	font-family: 'Courier Prime', sans-serif;
 	line-height: 1.2;
   position: center;
-  background-color: black;
   text-align: justify;
 }
 header {height: 400px;}
 .icon {height: 1em;
   width: 1em;
   margin-right: 10px;}
-.about p {margin: 10px}
 ul {list-style-type: square;}
 .content {
   max-width: 1000px;
