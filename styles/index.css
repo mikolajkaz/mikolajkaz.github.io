@@ -1,5 +1,6 @@
 /* fonty  */
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;600;700;800;900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
  .wrapper {
   color: white;
 	line-height: 1.2;
@@ -18,7 +19,7 @@ footer {
   border-top-width: 3px;
   font-weight: bold;}
 .wrapper, .content, header, footer {background-color: #000;
-font-family: 'Consolas', 'Inconsolata', monospace;}
+font-family: 'Source Code Pro', sans-serif;}
 html {scroll-behavior: smooth;}
 body {
   margin: 0px;
