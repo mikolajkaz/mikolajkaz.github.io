@@ -20,7 +20,7 @@ footer {
   font-weight: bold;}
 .wrapper, .content, header, footer {background-color: #000;
 font-family: 'Source Code Pro', sans-serif;}
-html {scroll-behavior: smooth;}
+html, body {scroll-behavior: smooth;}
 body {
   margin: 0px;
   padding: 0px;
