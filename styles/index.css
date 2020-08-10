@@ -27,11 +27,20 @@ body {
   margin-top: 0px;
   padding-top: 0px;
 }
-
+header h1 {text-align: center;
+  line-height: 1.3;
+  display: block;
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+header h1 .first-name {font-weight: lighter;}
+header h1 .last-name {
+  font-weight: bolder;}
 a {color: #00ff00;
   text-decoration: none;}
 
-b {font-weight: 900; }
+b {font-weight: 900;}
 .center {
   display: block;
   margin-left: auto;
@@ -62,5 +71,5 @@ ul {list-style-type: square;}
   max-width: 1200px;
   margin: auto;
 }
-.filler {height: 0px;
+.filler {height: 0.1;
 background-color: black;}
